@@ -1,0 +1,33 @@
+.laptops-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .laptop-card {
+    background-color: #f0f4f8; /* Light background for laptop cards */
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px; /* Slightly larger width */
+    text-align: center;
+    transition: transform 0.3s; /* Smooth scaling */
+  }
+  
+  .laptop-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .laptop-card h3 {
+    color: #343a40; /* Darker text for the product name */
+    font-size: 1.2em; /* Increase font size */
+  }
+  
+  .laptop-card .price {
+    color: #28a745; /* Green color for price */
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
